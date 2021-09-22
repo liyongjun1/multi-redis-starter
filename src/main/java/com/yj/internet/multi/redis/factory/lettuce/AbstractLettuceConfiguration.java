@@ -3,7 +3,7 @@ package com.yj.internet.multi.redis.factory.lettuce;
 import com.yj.internet.multi.redis.factory.configuration.AbstractMultiRedisConfiguration;
 
 /**
- * Created by LiYongJun on 2021/9/14 10:11 上午.
+ * Created by LiYongJun on 2021/9/22 14:26
  */
 public abstract class AbstractLettuceConfiguration extends AbstractMultiRedisConfiguration {
     private static final long REDIS_TOPOLOGY_REFRESH_SECONDS = ClusterTopologyRefreshOptions.DEFAULT_REFRESH_PERIOD;
