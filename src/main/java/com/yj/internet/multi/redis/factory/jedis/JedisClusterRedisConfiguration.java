@@ -1,8 +1,10 @@
+package com.yj.internet.multi.redis.factory.jedis;
+
 /**
  * user cluster redis集群
  *
  * @Author: LiYongJun
- * @Date: 2020/9/22 11:52
+ * @Date: 2021/9/22 11:52
  */
 public class JedisClusterRedisConfiguration extends AbstractJedisConfiguration {
     public static final String CONFIG_MEMBER_NAME = "cluster";
