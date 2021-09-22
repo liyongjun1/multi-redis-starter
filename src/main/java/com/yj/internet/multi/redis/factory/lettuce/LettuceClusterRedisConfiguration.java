@@ -4,7 +4,7 @@ package com.yj.internet.multi.redis.factory.lettuce;
  * user cluster redis集群
  *
  * @Author: LiYongJun
- * @Date: 2020/9/22 14:27
+ * @Date: 2021/9/22 14:27
  */
 public class LettuceClusterRedisConfiguration extends AbstractLettuceConfiguration {
     public static final String CONFIG_MEMBER_NAME = "cluster";
