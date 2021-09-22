@@ -1,3 +1,5 @@
+package com.yj.internet.multi.redis.factory.jedis;
+
 /**
  * standalone redis
  *
