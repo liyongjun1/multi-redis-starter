@@ -1,6 +1,16 @@
 package com.yj.internet.multi.redis.factory.jedis;
 
 import com.yj.internet.multi.redis.factory.configuration.AbstractMultiRedisConfiguration;
+import com.yj.internet.multi.redis.properties.*;
+import org.springframework.beans.factory.ObjectProvider;
+import org.springframework.boot.autoconfigure.data.redis.JedisClientConfigurationBuilderCustomizer;
+import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
+import org.springframework.data.redis.connection.jedis.JedisClientConfiguration;
+import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
+import org.springframework.util.StringUtils;
+
+import java.time.Duration;
+import java.util.Optional;
 
 /**
  * Created by LiYongJun on 2021/9/14 10:10 上午.

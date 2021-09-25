@@ -1,10 +1,24 @@
 package com.yj.internet.multi.redis;
 
+import com.yj.internet.multi.redis.constants.MultiRedisConstants;
+import com.yj.internet.multi.redis.properties.ClusterRedisConfig;
+import com.yj.internet.multi.redis.properties.MultiRedisClient;
+import com.yj.internet.multi.redis.properties.MultiRedisProperties;
+import com.yj.internet.multi.redis.properties.StandaloneRedisConfig;
+import com.yj.internet.multi.redis.registry.ClusterRedisBeanDefinitionRegister;
+import com.yj.internet.multi.redis.registry.StandaloneRedisBeanDefinitionRegister;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
+import org.springframework.boot.context.properties.bind.BindResult;
+import org.springframework.boot.context.properties.bind.Binder;
 import org.springframework.context.EnvironmentAware;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
 import org.springframework.core.env.Environment;
 import org.springframework.core.type.AnnotationMetadata;
+
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by LiYongJun on 2021/9/14 9:34 上午.

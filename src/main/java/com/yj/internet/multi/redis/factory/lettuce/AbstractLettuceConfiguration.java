@@ -1,6 +1,20 @@
 package com.yj.internet.multi.redis.factory.lettuce;
 
 import com.yj.internet.multi.redis.factory.configuration.AbstractMultiRedisConfiguration;
+import com.yj.internet.multi.redis.properties.*;
+import io.lettuce.core.TimeoutOptions;
+import io.lettuce.core.cluster.ClusterClientOptions;
+import io.lettuce.core.cluster.ClusterTopologyRefreshOptions;
+import io.lettuce.core.resource.ClientResources;
+import org.springframework.beans.factory.ObjectProvider;
+import org.springframework.boot.autoconfigure.data.redis.LettuceClientConfigurationBuilderCustomizer;
+import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
+import org.springframework.data.redis.connection.lettuce.LettuceClientConfiguration;
+import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory;
+import org.springframework.data.redis.connection.lettuce.LettucePoolingClientConfiguration;
+
+import java.time.Duration;
+import java.util.Optional;
 
 /**
  * Created by LiYongJun on 2021/9/22 14:26

@@ -1,5 +1,9 @@
 package com.yj.internet.multi.redis.properties;
 
+import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
+
+import java.time.Duration;
+
 /**
  * @Author: LiYongJun
  * @Date: 2021/9/22 14:52

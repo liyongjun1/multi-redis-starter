@@ -1,5 +1,20 @@
 package com.yj.internet.multi.redis.factory.configuration;
 
+import com.yj.internet.multi.redis.factory.MultiRedisPoolConfig;
+import com.yj.internet.multi.redis.properties.*;
+import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
+import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
+import org.springframework.data.redis.connection.*;
+import org.springframework.util.Assert;
+import org.springframework.util.StringUtils;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
 /**
  * Created by LiYongJun on 2021/9/14 10:06 上午.
  */

@@ -3,6 +3,8 @@ package com.yj.internet.multi.redis.properties;
 import com.yj.internet.multi.redis.constants.MultiRedisConstants;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+import java.util.Map;
+
 /**
  * Created by LiYongJun on 2021/9/14 9:31 上午.
  */

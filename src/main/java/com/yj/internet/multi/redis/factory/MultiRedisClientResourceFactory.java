@@ -1,5 +1,10 @@
 package com.yj.internet.multi.redis.factory;
 
+import io.lettuce.core.resource.ClientResources;
+import io.lettuce.core.resource.DefaultClientResources;
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.FactoryBean;
+
 /**
  * @Author: LiYongJun
  * @Date: 2021/9/22 14:30

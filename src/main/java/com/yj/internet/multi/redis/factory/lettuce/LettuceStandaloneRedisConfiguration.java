@@ -1,5 +1,13 @@
 package com.yj.internet.multi.redis.factory.lettuce;
 
+import com.yj.internet.multi.redis.properties.MultiRedisProperties;
+import com.yj.internet.multi.redis.properties.StandaloneRedisConfig;
+import io.lettuce.core.resource.ClientResources;
+import org.springframework.beans.factory.ObjectProvider;
+import org.springframework.boot.autoconfigure.data.redis.LettuceClientConfigurationBuilderCustomizer;
+import org.springframework.data.redis.connection.RedisConnectionFactory;
+import org.springframework.data.redis.connection.lettuce.LettuceClientConfiguration;
+
 /**
  * lettuce standalone redis
  *

@@ -1,5 +1,12 @@
 package com.yj.internet.multi.redis.registry;
 
+import com.yj.internet.multi.redis.factory.jedis.JedisStandaloneRedisConfiguration;
+import com.yj.internet.multi.redis.factory.lettuce.LettuceStandaloneRedisConfiguration;
+import com.yj.internet.multi.redis.properties.MultiRedisClient;
+import com.yj.internet.multi.redis.properties.StandaloneRedisConfig;
+import org.springframework.beans.factory.support.BeanDefinitionBuilder;
+import org.springframework.beans.factory.support.BeanDefinitionRegistry;
+
 /**
  * @Author: LiYongJun
  * @Date: 2021/9/22 15:06

@@ -1,5 +1,15 @@
 package com.yj.internet.multi.redis.registry;
 
+import com.yj.internet.multi.redis.factory.MultiRedisClientResourceFactory;
+import com.yj.internet.multi.redis.factory.MultiRedisConnectionFactory;
+import com.yj.internet.multi.redis.factory.MultiRedisTemplateFactory;
+import com.yj.internet.multi.redis.properties.MultiRedisClient;
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.beans.factory.support.BeanDefinitionBuilder;
+import org.springframework.beans.factory.support.BeanDefinitionRegistry;
+
+import java.util.List;
+
 /**
  * @Author: LiYongJun
  * @Date: 2021/9/22 15:06
