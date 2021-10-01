@@ -4,6 +4,14 @@ A custom starter with spring boot to support multiple redis data sources
 
 Usage
 --------
++ add Dependencies:
+```xml
+    <dependency>
+        <groupId>com.yj.internet</groupId>
+        <artifactId>multi-redis-starter</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+```
 + common configurations, which configure the connection timeout and lettuce pool size.
 ```properties
 # set the primary redis name, we can Autowire the primary RedisTemplate directly without Qualifier name
