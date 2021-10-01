@@ -18,7 +18,7 @@ Usage
 # set the primary redis name, we can Autowire the primary RedisTemplate directly without Qualifier name
 multi-redis.primary=xxx
 # support two kinds of redis client [lettuce / jedis (default)]
-multi-redis.redisClient=lettuce
+multi-redis.redisClient=jedis
 #Redis Connection timeout.( ISO-8601 duration format)
 multi-redis.base.timeout=2s
 #Maximum amount of time a connection allocation should block before throwing an exception when the pool is exhausted. Use a negative value to block indefinitely.( ISO-8601 duration format)
