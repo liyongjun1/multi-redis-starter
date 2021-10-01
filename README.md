@@ -12,6 +12,7 @@ Usage
         <version>0.0.1-SNAPSHOT</version>
     </dependency>
 ```
+---
 + common configurations, which configure the connection timeout and lettuce pool size.
 ```properties
 # set the primary redis name, we can Autowire the primary RedisTemplate directly without Qualifier name
