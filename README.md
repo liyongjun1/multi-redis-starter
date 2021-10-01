@@ -4,12 +4,12 @@ A custom starter with spring boot to support multiple redis data sources
 
 Usage
 --------
-+ add Dependencies:
++ download artifact from the latest release, add dependencies:
 ```xml
     <dependency>
         <groupId>com.yj.internet</groupId>
         <artifactId>multi-redis-starter</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </dependency>
 ```
 ---
